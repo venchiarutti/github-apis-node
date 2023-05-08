@@ -4,7 +4,8 @@
   "description": "Project to provide Node APIs to interact with github APIs",
   "main": "dist/server.js",
   "scripts": {
-    "start": "tsc && node dist/server.js",
+    "build": "tsc",
+    "start": "node dist/server.js",
     "lint": "eslint . --ext .ts"
   },
   "repository": {
